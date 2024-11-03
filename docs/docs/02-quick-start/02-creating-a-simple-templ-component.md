@@ -34,7 +34,7 @@ templ hello(name string) {
 
 ## Generate Go code from the templ file
 
-Run the `templ generate` command.
+Run the `templ generate` command. If the command fails under windows make sure that the `go\bin\` directory is added to your `PATH`.
 
 ```sh
 templ generate
